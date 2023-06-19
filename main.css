@@ -56,15 +56,18 @@ body, html {
     margin: 0;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   
   .navigation ul li {
     margin-right: 10px;
+    z-index: 1;
   }
   
   .navigation ul li a {
     color: #fff;
     text-decoration: none;
+    z-index: 1;
   }
   
   .container {
