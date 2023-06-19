@@ -49,6 +49,11 @@ body, html {
     font-size: 36px;
     margin-bottom: 20px;
   }
+
+    .h2 {
+    position: relative;
+    z-index: 1;
+  }
   
   .navigation ul {
     list-style-type: none;
