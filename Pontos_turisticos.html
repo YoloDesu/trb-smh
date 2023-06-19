@@ -10,33 +10,32 @@
         .image-container {
             display: flex;
             align-items: flex-start;
+            z-index: 1;
         }
         
         img {
             width: 330px;
             height: 230px;
+            z-index: 1;
         }
         
         .text-container {
             margin-left: 20px;
+            z-index: 1;
         }
         hr {
             border: none;
             border-top: 1px solid transparent;
+            z-index: 1;
         }
-        body {
-  background-image: url('https://images.squarespace-cdn.com/content/v1/51ef2bf2e4b02bcf8471333b/1474478444230-U80IHL34ASBZYL5M5087/Castelo-de-Itaipava?format=1000w');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  height:auto;
-  width:auto;
-}
+ 
     </style>
 </head>
 <body>
+ <img id="background-image"
+  src="https://images.squarespace-cdn.com/content/v1/51ef2bf2e4b02bcf8471333b/1474478444230-U80IHL34ASBZYL5M5087/Castelo-de-Itaipava?format=1000w"> 
     <div>
-        <h2>Atrações Turísticas</h2>
+        <h2 class="h2">Atrações Turísticas</h2>
         <div class="image-container">
             <img src="https://i.pinimg.com/originals/c2/b7/84/c2b7848fd84e2b730426bb69b553620f.jpg" alt="Descrição da Imagem">
             <div class="text-container">
